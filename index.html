@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+ 
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,23 +9,76 @@
     <title>Facebook - log in or sign up</title>
 </head>
 <body>
-    <div class="wrapper">
-        <div class="container">
-            <div class="header">
+    <section class="bodyArea">
+        <div id="container" class="container">
                 <div class="logoSection">
-                    <div class="logo">
-                        <img id="facebookLogo" src="assets/facebook_logo.svg" alt="logo comes here">
-                    </div>
+                    <img id="facebookLogo" src="assets/facebook_logo.svg" alt="logo comes here">
                     <h2 class="tagLine">Facebook helps you connect and share with the people in your life.</h2>
                 </div>
                 <div class="formSection">
-                    
+                    <form action="">
+                        <input type="email" placeholder="Email Address or Phone Number">
+                        <input type="password" placeholder="Password">
+                        <input type="button" id="login" value="Log in">
+                        <a href="#" id="forget">Forgotten Passwrod?</a>
+                        <hr>
+                        <input type="button" id="newAccount" value="Create New Account">
+                    </form>
+                    <p><span id="page" href="#">Create a page</span> for a celebrity, brand or business.</p>
                 </div>
-            </div>
-            <div class="footer">
-
-            </div>
         </div>
-    </div>
+    </section>
+    <footer id="footerSection">
+        <div class="container">
+            <ul>
+                <li><a href="">English (UK)</a>
+                <li><a href="">हिन्दी</a></li>
+                <li><a href="">اردو</a></li>
+                <li><a href="">ਪੰਜਾਬੀ</a></li>
+                <li><a href="">বাংলা</a></li>
+                <li><a href="">ગુજરાતી</a></li>
+                <li><a href="">मराठी</a></li>
+                <li><a href="">தமிழ்</a></li>
+                <li><a href="">తెలుగు</a></li>
+                <li><a href="">മലയാളം</a></li>
+                <li><a href="">ಕನ್ನಡ</a></li>
+            </ul>
+            <p>Meta © 2023</p>
+        </div>
+    </footer>
 </body>
 </html>
+
+<!--
+<html>
+    <head>
+        <title>Facebook login page</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="leftpart">
+                <h1>facebook</h1>
+                <h3>Facebook helps you connect and share with the
+                    people in your life
+                </h3>
+            </div>
+            <div class="Rightpart">
+                <div class="loginpage">
+                    <form>
+                        <input type="text" placeholder="Email or Phone number">
+                        <input type="password" placeholder="Password">
+                        <input type="submit">
+                    </form>
+                    <p>Forgot Password ?</p>
+                    <hr>
+                    <div class="createaccount">
+                        Create a new account
+                    </div>
+                </div>
+                <span>Create a page for a well-know person, Orchestra or business</span>
+            </div>
+        </div>
+    </body>
+</html>
+-->
