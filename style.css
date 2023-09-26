@@ -16,7 +16,7 @@ body{
 }
 
 .container{
-    width: 980px;
+    width: 1080px;
     padding: 20px;
     margin: 0 auto;
 }
@@ -124,6 +124,7 @@ img{
 #page{
     color: #1c1e21;
     font-weight: bold;
+    
 }
 
 #page:hover{
@@ -149,8 +150,9 @@ img{
 
 #footerSection ul li a{
     color: #737373;
-    font-size: 14px;
+    font-size: 12px;
     text-decoration: none;
+    font-family: inherit;
 }
 
 #footerSection ul li a:hover{
@@ -162,8 +164,12 @@ img{
     font-size: 11px;
 }
 
+.secondFooter {
+    line-height: 1.6;
+    border: none !important;
+}
 
-@media screen and (max-width:520px) {
+@media screen and (max-width:771px) {
     .container{
         width: 96%;
     }
@@ -188,6 +194,10 @@ img{
     .formSection{
         flex-basis: 100%;
         text-align: center;
+        width: 70%;
     }
 
+    #page{
+        margin-bottom: 50px;
+    }
 }
