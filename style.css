@@ -194,7 +194,7 @@ img{
     .formSection{
         flex-basis: 100%;
         text-align: center;
-        width: 70%;
+        max-width: 396px;
     }
 
     #page{
